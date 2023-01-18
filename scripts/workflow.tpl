@@ -10,6 +10,8 @@
 
 name: ${name}
 
+permissions: write-all
+
 on:
   repository_dispatch:
   workflow_dispatch:
@@ -26,8 +28,8 @@ on:
     branches:
       - main
 
-  # schedule:
-  #   - cron: 0 16 * * *
+  schedule:
+    - cron: 0 16 * * *
 
 env:
   REPO_URL: https://github.com/gl-inet/gl-infra-builder
