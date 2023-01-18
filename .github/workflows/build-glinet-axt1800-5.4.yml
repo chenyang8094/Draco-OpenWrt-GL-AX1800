@@ -10,6 +10,8 @@
 
 name: BUILD GLINET AXT1800 5.4
 
+permissions: read-all|write-all
+
 on:
   repository_dispatch:
   workflow_dispatch:
