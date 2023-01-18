@@ -8,24 +8,24 @@
  * @official 是否官方编译界面
  */
  module.exports = [
-  {
-    model: 'ax1800',
-    config: 'config-wlan-ap',
-    target: 'target_wlan_ap-gl-ax1800',
-    official: true,
-  },
+  // {
+  //   model: 'ax1800',
+  //   config: 'config-wlan-ap',
+  //   target: 'target_wlan_ap-gl-ax1800',
+  //   official: true,
+  // },
   {
     model: 'axt1800',
     config: 'config-wlan-ap',
     target: 'target_wlan_ap-gl-axt1800',
     official: true,
   },
-  {
-    model: 'mt2500',
-    config: 'config-mt798x-7.6.6.1',
-    target: 'target_mt7981_gl-mt2500',
-    official: true,
-  },
+  // {
+  //   model: 'mt2500',
+  //   config: 'config-mt798x-7.6.6.1',
+  //   target: 'target_mt7981_gl-mt2500',
+  //   official: true,
+  // },
   // {
   //   model: 'mt1300',
   //   config: 'config-22.03.0',
@@ -58,12 +58,12 @@
   //   build: 'glinet-ax1800-5-4',
   //   official: true,
   // },
-  // {
-  //   name: 'build-glinet-axt1800-5.4',
-  //   model: 'axt1800',
-  //   config: 'config-wlan-ap-5.4',
-  //   target: 'target_wlan_ap-gl-axt1800-5-4',
-  //   build: 'glinet-axt1800-5-4',
-  //   official: true,
-  // },
+  {
+    name: 'build-glinet-axt1800-5.4',
+    model: 'axt1800',
+    config: 'config-wlan-ap-5.4',
+    target: 'target_wlan_ap-gl-axt1800-5-4',
+    build: 'glinet-axt1800-5-4',
+    official: true,
+  },
 ];
