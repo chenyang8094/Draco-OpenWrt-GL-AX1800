@@ -10,7 +10,7 @@
 
 name: BUILD GLINET AXT1800
 
-permissions: read-all|write-all
+permissions: write-all
 
 on:
   repository_dispatch:
